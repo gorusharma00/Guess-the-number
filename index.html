@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1024, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="shortcut icon" href="./Assets/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="canvas">
+        <canvas id="confetti"></canvas>
+    </div>
+    <div class="container">
+        <div class="content-wrapper">
+            <div class="game-details">
+                <h1>Guess The Number Game</h1>
+                <p>I am thinking of a number between 1-100.</p>
+                <p>Can you guess it?</p>
+            </div>
+            <div class="input-details">
+                <form class="form">
+                    <input type="text" id="guessField" class="guessField" placeholder="Enter your number" autocomplete="off">
+                    <button type="submit" class="submit-btn">Check Now!</button>
+                </form>
+            </div>
+            <div class="result-details">
+                <p class="result-msg"></p>
+                <p>No. of Guesses Remaining: <span class="turns-remaining">10</span></p>
+                <p>Guessed numbers are: <span class="guesses"></span></p>
+            </div>
+        </div>
+        <div class="game-stats">
+            <button class="playAgain-btn" id="playAgain-btn">Play Again</button>
+            <div class="scoreboard">
+                <p>Score: <span class="score-stats"></span></p>
+                <p>High Score: <span class="high-score-stats"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@0.9.0/dist/js-confetti.browser.js"></script>
+</body>
+<script src="./script.js"></script>
+</html>
