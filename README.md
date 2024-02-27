@@ -4,11 +4,12 @@ This is a fun and interactive game built with HTML, CSS, and JavaScript. The gam
 
 ## Preview
 
+https://github.com/gorusharma00/Guess-the-number/assets/108645957/42f3937c-91b2-4fb0-9659-2d8890b1f4da
 
 
 ## Live Demo
 
-[Click to play the game]()
+[Click to play the game](https://game-guess-numbers.netlify.app/)
 
 ## Features
 
@@ -25,7 +26,7 @@ This is a fun and interactive game built with HTML, CSS, and JavaScript. The gam
 ## How to Play
 
 1. Enter your guess in the input field.
-2. Click on the 'Guess' button.
+2. Click on the 'Check Now!' button.
 3. The game will provide feedback on whether your guess is too high, too low, or correct.
 4. Keep guessing until you run out of guesses or guess the correct number.
 
