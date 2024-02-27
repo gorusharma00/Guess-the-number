@@ -35,5 +35,5 @@ https://github.com/gorusharma00/Guess-the-number/assets/108645957/42f3937c-91b2-
 To get started, clone this repository and open `index.html` in your web browser.
 
 ```bash
-git clone https://github.com/yourusername/guess-the-number-game.git
+git clone https://github.com/gorusharma00/Guess-the-number.git
 ```
